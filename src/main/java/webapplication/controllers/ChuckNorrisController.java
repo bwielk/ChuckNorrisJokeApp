@@ -1,10 +1,10 @@
-package controllers;
+package webapplication.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import services.ChuckNorrisJokeService;
+import webapplication.services.ChuckNorrisJokeService;
 
 @Controller
 public class ChuckNorrisController {
